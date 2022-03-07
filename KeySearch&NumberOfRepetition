@@ -23,7 +23,7 @@ int main()
     cin>>key;
     for(int i=0;i<sizeof(arr)/sizeof(arr[0]);i++){
         if(arr[i]==key){
-            int r=1;
+            int r=0;
             for(int j=i;j<sizeof(arr)/sizeof(arr[0]);j++){
                 if(arr[j]==key){
                     r++;
