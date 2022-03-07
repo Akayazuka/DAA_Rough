@@ -28,6 +28,7 @@ int main()
                 if(arr[j]==key){
                     r++;
                 }
+            break;    
             }
             cout<<"Key found!"<<endl;
             cout<<"It occured "<<r<<" times.";
